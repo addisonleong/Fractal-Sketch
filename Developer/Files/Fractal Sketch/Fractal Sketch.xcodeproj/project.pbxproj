@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC515D5015A126A100FC5194 /* Gestures copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BC515D4F15A126A100FC5194 /* Gestures copy.png */; };
+		BCA62B981551D67600C23BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B971551D67600C23BD0 /* UIKit.framework */; };
+		BCA62B9A1551D67600C23BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B991551D67600C23BD0 /* Foundation.framework */; };
+		BCA62B9C1551D67600C23BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B9B1551D67600C23BD0 /* CoreGraphics.framework */; };
+		BCA62BA21551D67600C23BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BA01551D67600C23BD0 /* InfoPlist.strings */; };
+		BCA62BA51551D67600C23BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA62BA41551D67600C23BD0 /* main.m */; };
+		BCA62BA81551D67600C23BD0 /* Fractal_SketchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA62BA71551D67600C23BD0 /* Fractal_SketchAppDelegate.m */; };
+		BCA62BAB1551D67600C23BD0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BA91551D67600C23BD0 /* MainWindow.xib */; };
+		BCA62BAE1551D67600C23BD0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA62BAD1551D67600C23BD0 /* FirstViewController.m */; };
+		BCA62BB11551D67600C23BD0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA62BB01551D67600C23BD0 /* SecondViewController.m */; };
+		BCA62BB41551D67600C23BD0 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BB21551D67600C23BD0 /* FirstView.xib */; };
+		BCA62BB71551D67600C23BD0 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BB51551D67600C23BD0 /* SecondView.xib */; };
+		BCA62BBE1551D67600C23BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B971551D67600C23BD0 /* UIKit.framework */; };
+		BCA62BBF1551D67600C23BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B991551D67600C23BD0 /* Foundation.framework */; };
+		BCA62BC01551D67600C23BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA62B9B1551D67600C23BD0 /* CoreGraphics.framework */; };
+		BCA62BC81551D67600C23BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BC61551D67600C23BD0 /* InfoPlist.strings */; };
+		BCA62BCB1551D67600C23BD0 /* Fractal_SketchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BCA62BCA1551D67600C23BD0 /* Fractal_SketchTests.h */; };
+		BCA62BCD1551D67600C23BD0 /* Fractal_SketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA62BCC1551D67600C23BD0 /* Fractal_SketchTests.m */; };
+		BCA6D4851582F62B0087B27D /* Render.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA6D4841582F62B0087B27D /* Render.m */; };
+		BCA6D488158445130087B27D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA6D487158445130087B27D /* QuartzCore.framework */; };
+		BCBF585515693B8A00471AC6 /* Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF585415693B8A00471AC6 /* Editor.m */; };
+		BCC6099715B3B8BD000076D3 /* Editor copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC6099615B3B8BD000076D3 /* Editor copy.png */; };
+		BCC6099A15B3B927000076D3 /* Render_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC6099915B3B927000076D3 /* Render_copy.png */; };
+		BCC6099C15B3BB45000076D3 /* WelcomeToFractalSketch_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC6099B15B3BB45000076D3 /* WelcomeToFractalSketch_copy.png */; };
+		BCC6099E15B3BB8A000076D3 /* Gestures_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC6099D15B3BB8A000076D3 /* Gestures_copy.png */; };
+		BCC609A015B3BBDA000076D3 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC6099F15B3BBDA000076D3 /* Default-Portrait~ipad.png */; };
+		BCC609A215B3BBE9000076D3 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC609A115B3BBE9000076D3 /* Default-Portrait@2x~ipad.png */; };
+		BCC609A415B3BC04000076D3 /* FractalSketchSplash REAL.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC609A315B3BC04000076D3 /* FractalSketchSplash REAL.png */; };
+		BCC609A615B3BEAB000076D3 /* IconAA.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC609A515B3BEAB000076D3 /* IconAA.png */; };
+		BCC609A815B3BEB1000076D3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC609A715B3BEB1000076D3 /* Icon.png */; };
+		BCF9F7381596759000B6BD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF9F7361596758F00B6BD1F /* ViewController.m */; };
+		BCF9F7391596759000B6BD1F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF9F7371596759000B6BD1F /* ViewController.xib */; };
+		BCFCA9B31556EBF7001B3A23 /* Add1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AA1556EBF7001B3A23 /* Add1.png */; };
+		BCFCA9B41556EBF7001B3A23 /* Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AB1556EBF7001B3A23 /* Bar.png */; };
+		BCFCA9B51556EBF7001B3A23 /* Delete1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AC1556EBF7001B3A23 /* Delete1.png */; };
+		BCFCA9B61556EBF7001B3A23 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AD1556EBF7001B3A23 /* Line.png */; };
+		BCFCA9B71556EBF7001B3A23 /* Move.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AE1556EBF7001B3A23 /* Move.png */; };
+		BCFCA9B81556EBF7001B3A23 /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9AF1556EBF7001B3A23 /* Square.png */; };
+		BCFCA9B91556EBF7001B3A23 /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9B01556EBF7001B3A23 /* Triangle.png */; };
+		BCFCA9BA1556EBF7001B3A23 /* ZoomI.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9B11556EBF7001B3A23 /* ZoomI.png */; };
+		BCFCA9BB1556EBF7001B3A23 /* ZoomO.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFCA9B21556EBF7001B3A23 /* ZoomO.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA62BC11551D67600C23BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA62B8A1551D67600C23BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA62B921551D67600C23BD0;
+			remoteInfo = "Fractal Sketch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC515D4F15A126A100FC5194 /* Gestures copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures copy.png"; sourceTree = "<group>"; };
+		BCA62B931551D67600C23BD0 /* Fractal Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fractal Sketch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA62B971551D67600C23BD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCA62B991551D67600C23BD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCA62B9B1551D67600C23BD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCA62B9F1551D67600C23BD0 /* Fractal Sketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fractal Sketch-Info.plist"; sourceTree = "<group>"; };
+		BCA62BA11551D67600C23BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA62BA31551D67600C23BD0 /* Fractal Sketch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fractal Sketch-Prefix.pch"; sourceTree = "<group>"; };
+		BCA62BA41551D67600C23BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA62BA61551D67600C23BD0 /* Fractal_SketchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fractal_SketchAppDelegate.h; sourceTree = "<group>"; };
+		BCA62BA71551D67600C23BD0 /* Fractal_SketchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractal_SketchAppDelegate.m; sourceTree = "<group>"; };
+		BCA62BAA1551D67600C23BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BCA62BAC1551D67600C23BD0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BCA62BAD1551D67600C23BD0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BCA62BAF1551D67600C23BD0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BCA62BB01551D67600C23BD0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BCA62BB31551D67600C23BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		BCA62BB61551D67600C23BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		BCA62BBD1551D67600C23BD0 /* Fractal SketchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractal SketchTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA62BC51551D67600C23BD0 /* Fractal SketchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fractal SketchTests-Info.plist"; sourceTree = "<group>"; };
+		BCA62BC71551D67600C23BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCA62BC91551D67600C23BD0 /* Fractal SketchTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fractal SketchTests-Prefix.pch"; sourceTree = "<group>"; };
+		BCA62BCA1551D67600C23BD0 /* Fractal_SketchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fractal_SketchTests.h; sourceTree = "<group>"; };
+		BCA62BCC1551D67600C23BD0 /* Fractal_SketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractal_SketchTests.m; sourceTree = "<group>"; };
+		BCA6D4831582F62B0087B27D /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Render.h; sourceTree = "<group>"; };
+		BCA6D4841582F62B0087B27D /* Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Render.m; sourceTree = "<group>"; };
+		BCA6D487158445130087B27D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCBF585315693B8A00471AC6 /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
+		BCBF585415693B8A00471AC6 /* Editor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Editor.m; sourceTree = "<group>"; };
+		BCC6099615B3B8BD000076D3 /* Editor copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Editor copy.png"; path = "../../../Users/addisonleong/Downloads/Editor copy.png"; sourceTree = "<group>"; };
+		BCC6099915B3B927000076D3 /* Render_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Render_copy.png; sourceTree = "<group>"; };
+		BCC6099B15B3BB45000076D3 /* WelcomeToFractalSketch_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeToFractalSketch_copy.png; sourceTree = "<group>"; };
+		BCC6099D15B3BB8A000076D3 /* Gestures_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gestures_copy.png; sourceTree = "<group>"; };
+		BCC6099F15B3BBDA000076D3 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		BCC609A115B3BBE9000076D3 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		BCC609A315B3BC04000076D3 /* FractalSketchSplash REAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FractalSketchSplash REAL.png"; sourceTree = "<group>"; };
+		BCC609A515B3BEAB000076D3 /* IconAA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconAA.png; sourceTree = "<group>"; };
+		BCC609A715B3BEB1000076D3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BCF9F7351596758F00B6BD1F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCF9F7361596758F00B6BD1F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCF9F7371596759000B6BD1F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BCF9F745159A68C800B6BD1F /* FractalSketchIcon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FractalSketchIcon copy.png"; sourceTree = "<group>"; };
+		BCFCA9AA1556EBF7001B3A23 /* Add1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add1.png; sourceTree = "<group>"; };
+		BCFCA9AB1556EBF7001B3A23 /* Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bar.png; sourceTree = "<group>"; };
+		BCFCA9AC1556EBF7001B3A23 /* Delete1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Delete1.png; sourceTree = "<group>"; };
+		BCFCA9AD1556EBF7001B3A23 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		BCFCA9AE1556EBF7001B3A23 /* Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Move.png; sourceTree = "<group>"; };
+		BCFCA9AF1556EBF7001B3A23 /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
+		BCFCA9B01556EBF7001B3A23 /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
+		BCFCA9B11556EBF7001B3A23 /* ZoomI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoomI.png; sourceTree = "<group>"; };
+		BCFCA9B21556EBF7001B3A23 /* ZoomO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoomO.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA62B901551D67600C23BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6D488158445130087B27D /* QuartzCore.framework in Frameworks */,
+				BCA62B981551D67600C23BD0 /* UIKit.framework in Frameworks */,
+				BCA62B9A1551D67600C23BD0 /* Foundation.framework in Frameworks */,
+				BCA62B9C1551D67600C23BD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA62BB91551D67600C23BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA62BBE1551D67600C23BD0 /* UIKit.framework in Frameworks */,
+				BCA62BBF1551D67600C23BD0 /* Foundation.framework in Frameworks */,
+				BCA62BC01551D67600C23BD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA62B881551D67600C23BD0 = {
+			isa = PBXGroup;
+			children = (
+				BCC609A715B3BEB1000076D3 /* Icon.png */,
+				BCC609A515B3BEAB000076D3 /* IconAA.png */,
+				BCC609A115B3BBE9000076D3 /* Default-Portrait@2x~ipad.png */,
+				BCC6099F15B3BBDA000076D3 /* Default-Portrait~ipad.png */,
+				BCF9F745159A68C800B6BD1F /* FractalSketchIcon copy.png */,
+				BCC6099615B3B8BD000076D3 /* Editor copy.png */,
+				BCC6099B15B3BB45000076D3 /* WelcomeToFractalSketch_copy.png */,
+				BCC6099915B3B927000076D3 /* Render_copy.png */,
+				BCC6099D15B3BB8A000076D3 /* Gestures_copy.png */,
+				BC515D4F15A126A100FC5194 /* Gestures copy.png */,
+				BCA6D487158445130087B27D /* QuartzCore.framework */,
+				BCA62B9D1551D67600C23BD0 /* Fractal Sketch */,
+				BCA62BC31551D67600C23BD0 /* Fractal SketchTests */,
+				BCA62B961551D67600C23BD0 /* Frameworks */,
+				BCA62B941551D67600C23BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA62B941551D67600C23BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62B931551D67600C23BD0 /* Fractal Sketch.app */,
+				BCA62BBD1551D67600C23BD0 /* Fractal SketchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA62B961551D67600C23BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62B971551D67600C23BD0 /* UIKit.framework */,
+				BCA62B991551D67600C23BD0 /* Foundation.framework */,
+				BCA62B9B1551D67600C23BD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA62B9D1551D67600C23BD0 /* Fractal Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				BCFCA9AA1556EBF7001B3A23 /* Add1.png */,
+				BCFCA9AB1556EBF7001B3A23 /* Bar.png */,
+				BCFCA9AC1556EBF7001B3A23 /* Delete1.png */,
+				BCFCA9AD1556EBF7001B3A23 /* Line.png */,
+				BCFCA9AE1556EBF7001B3A23 /* Move.png */,
+				BCC609A315B3BC04000076D3 /* FractalSketchSplash REAL.png */,
+				BCFCA9AF1556EBF7001B3A23 /* Square.png */,
+				BCFCA9B01556EBF7001B3A23 /* Triangle.png */,
+				BCFCA9B11556EBF7001B3A23 /* ZoomI.png */,
+				BCFCA9B21556EBF7001B3A23 /* ZoomO.png */,
+				BCA62BA61551D67600C23BD0 /* Fractal_SketchAppDelegate.h */,
+				BCA62BA71551D67600C23BD0 /* Fractal_SketchAppDelegate.m */,
+				BCA62BA91551D67600C23BD0 /* MainWindow.xib */,
+				BCA62BAC1551D67600C23BD0 /* FirstViewController.h */,
+				BCA62BAD1551D67600C23BD0 /* FirstViewController.m */,
+				BCA62BAF1551D67600C23BD0 /* SecondViewController.h */,
+				BCA62BB01551D67600C23BD0 /* SecondViewController.m */,
+				BCA62BB21551D67600C23BD0 /* FirstView.xib */,
+				BCA62BB51551D67600C23BD0 /* SecondView.xib */,
+				BCA62B9E1551D67600C23BD0 /* Supporting Files */,
+				BCBF585315693B8A00471AC6 /* Editor.h */,
+				BCBF585415693B8A00471AC6 /* Editor.m */,
+				BCA6D4831582F62B0087B27D /* Render.h */,
+				BCA6D4841582F62B0087B27D /* Render.m */,
+				BCF9F7351596758F00B6BD1F /* ViewController.h */,
+				BCF9F7361596758F00B6BD1F /* ViewController.m */,
+				BCF9F7371596759000B6BD1F /* ViewController.xib */,
+			);
+			path = "Fractal Sketch";
+			sourceTree = "<group>";
+		};
+		BCA62B9E1551D67600C23BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62B9F1551D67600C23BD0 /* Fractal Sketch-Info.plist */,
+				BCA62BA01551D67600C23BD0 /* InfoPlist.strings */,
+				BCA62BA31551D67600C23BD0 /* Fractal Sketch-Prefix.pch */,
+				BCA62BA41551D67600C23BD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA62BC31551D67600C23BD0 /* Fractal SketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62BCA1551D67600C23BD0 /* Fractal_SketchTests.h */,
+				BCA62BCC1551D67600C23BD0 /* Fractal_SketchTests.m */,
+				BCA62BC41551D67600C23BD0 /* Supporting Files */,
+			);
+			path = "Fractal SketchTests";
+			sourceTree = "<group>";
+		};
+		BCA62BC41551D67600C23BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA62BC51551D67600C23BD0 /* Fractal SketchTests-Info.plist */,
+				BCA62BC61551D67600C23BD0 /* InfoPlist.strings */,
+				BCA62BC91551D67600C23BD0 /* Fractal SketchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA62B921551D67600C23BD0 /* Fractal Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA62BD01551D67600C23BD0 /* Build configuration list for PBXNativeTarget "Fractal Sketch" */;
+			buildPhases = (
+				BCA62B8F1551D67600C23BD0 /* Sources */,
+				BCA62B901551D67600C23BD0 /* Frameworks */,
+				BCA62B911551D67600C23BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractal Sketch";
+			productName = "Fractal Sketch";
+			productReference = BCA62B931551D67600C23BD0 /* Fractal Sketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA62BBC1551D67600C23BD0 /* Fractal SketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA62BD31551D67600C23BD0 /* Build configuration list for PBXNativeTarget "Fractal SketchTests" */;
+			buildPhases = (
+				BCA62BB81551D67600C23BD0 /* Sources */,
+				BCA62BB91551D67600C23BD0 /* Frameworks */,
+				BCA62BBA1551D67600C23BD0 /* Resources */,
+				BCA62BBB1551D67600C23BD0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA62BC21551D67600C23BD0 /* PBXTargetDependency */,
+			);
+			name = "Fractal SketchTests";
+			productName = "Fractal SketchTests";
+			productReference = BCA62BBD1551D67600C23BD0 /* Fractal SketchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA62B8A1551D67600C23BD0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BCA62B8D1551D67600C23BD0 /* Build configuration list for PBXProject "Fractal Sketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCA62B881551D67600C23BD0;
+			productRefGroup = BCA62B941551D67600C23BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA62B921551D67600C23BD0 /* Fractal Sketch */,
+				BCA62BBC1551D67600C23BD0 /* Fractal SketchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA62B911551D67600C23BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA62BA21551D67600C23BD0 /* InfoPlist.strings in Resources */,
+				BCA62BAB1551D67600C23BD0 /* MainWindow.xib in Resources */,
+				BCA62BB41551D67600C23BD0 /* FirstView.xib in Resources */,
+				BCA62BB71551D67600C23BD0 /* SecondView.xib in Resources */,
+				BCFCA9B31556EBF7001B3A23 /* Add1.png in Resources */,
+				BCFCA9B41556EBF7001B3A23 /* Bar.png in Resources */,
+				BCFCA9B51556EBF7001B3A23 /* Delete1.png in Resources */,
+				BCFCA9B61556EBF7001B3A23 /* Line.png in Resources */,
+				BCFCA9B71556EBF7001B3A23 /* Move.png in Resources */,
+				BCFCA9B81556EBF7001B3A23 /* Square.png in Resources */,
+				BCFCA9B91556EBF7001B3A23 /* Triangle.png in Resources */,
+				BCFCA9BA1556EBF7001B3A23 /* ZoomI.png in Resources */,
+				BCFCA9BB1556EBF7001B3A23 /* ZoomO.png in Resources */,
+				BCF9F7391596759000B6BD1F /* ViewController.xib in Resources */,
+				BC515D5015A126A100FC5194 /* Gestures copy.png in Resources */,
+				BCC6099715B3B8BD000076D3 /* Editor copy.png in Resources */,
+				BCC6099A15B3B927000076D3 /* Render_copy.png in Resources */,
+				BCC6099C15B3BB45000076D3 /* WelcomeToFractalSketch_copy.png in Resources */,
+				BCC6099E15B3BB8A000076D3 /* Gestures_copy.png in Resources */,
+				BCC609A015B3BBDA000076D3 /* Default-Portrait~ipad.png in Resources */,
+				BCC609A215B3BBE9000076D3 /* Default-Portrait@2x~ipad.png in Resources */,
+				BCC609A415B3BC04000076D3 /* FractalSketchSplash REAL.png in Resources */,
+				BCC609A615B3BEAB000076D3 /* IconAA.png in Resources */,
+				BCC609A815B3BEB1000076D3 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA62BBA1551D67600C23BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA62BC81551D67600C23BD0 /* InfoPlist.strings in Resources */,
+				BCA62BCB1551D67600C23BD0 /* Fractal_SketchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCA62BBB1551D67600C23BD0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA62B8F1551D67600C23BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA62BA51551D67600C23BD0 /* main.m in Sources */,
+				BCA62BA81551D67600C23BD0 /* Fractal_SketchAppDelegate.m in Sources */,
+				BCA62BAE1551D67600C23BD0 /* FirstViewController.m in Sources */,
+				BCA62BB11551D67600C23BD0 /* SecondViewController.m in Sources */,
+				BCBF585515693B8A00471AC6 /* Editor.m in Sources */,
+				BCA6D4851582F62B0087B27D /* Render.m in Sources */,
+				BCF9F7381596759000B6BD1F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA62BB81551D67600C23BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA62BCD1551D67600C23BD0 /* Fractal_SketchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA62BC21551D67600C23BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA62B921551D67600C23BD0 /* Fractal Sketch */;
+			targetProxy = BCA62BC11551D67600C23BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA62BA01551D67600C23BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA62BA11551D67600C23BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCA62BA91551D67600C23BD0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA62BAA1551D67600C23BD0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BCA62BB21551D67600C23BD0 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA62BB31551D67600C23BD0 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		BCA62BB51551D67600C23BD0 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA62BB61551D67600C23BD0 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		BCA62BC61551D67600C23BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA62BC71551D67600C23BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA62BCE1551D67600C23BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BCA62BCF1551D67600C23BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BCA62BD11551D67600C23BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Sketch/Fractal Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Fractal Sketch/Fractal Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCA62BD21551D67600C23BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal Sketch/Fractal Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Fractal Sketch/Fractal Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCA62BD41551D67600C23BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fractal Sketch.app/Fractal Sketch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal SketchTests/Fractal SketchTests-Prefix.pch";
+				INFOPLIST_FILE = "Fractal SketchTests/Fractal SketchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BCA62BD51551D67600C23BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fractal Sketch.app/Fractal Sketch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fractal SketchTests/Fractal SketchTests-Prefix.pch";
+				INFOPLIST_FILE = "Fractal SketchTests/Fractal SketchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA62B8D1551D67600C23BD0 /* Build configuration list for PBXProject "Fractal Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA62BCE1551D67600C23BD0 /* Debug */,
+				BCA62BCF1551D67600C23BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA62BD01551D67600C23BD0 /* Build configuration list for PBXNativeTarget "Fractal Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA62BD11551D67600C23BD0 /* Debug */,
+				BCA62BD21551D67600C23BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA62BD31551D67600C23BD0 /* Build configuration list for PBXNativeTarget "Fractal SketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA62BD41551D67600C23BD0 /* Debug */,
+				BCA62BD51551D67600C23BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA62B8A1551D67600C23BD0 /* Project object */;
+}
